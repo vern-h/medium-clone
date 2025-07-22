@@ -104,16 +104,16 @@ Future Enhancements
 
 Screenshots
 Home
-![Home Screenshot](./pic/home.jpg)
+![Home Screenshot](./home.jpg)
 
 Login
-![Login Screenshot](./pic/login.jpg)
+![Login Screenshot](./login.jpg)
 
 Register
-![Register Screenshot](./pic/register.jpg)
+![Register Screenshot](./register.jpg)
 
 Write
-![Write Screenshot](./pic/write.jpg)
+![Write Screenshot](./write.jpg)
 
 ⸻
 
