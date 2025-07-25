@@ -85,18 +85,23 @@ How to Run Locally
 	1.	Clone the repository
 
 git clone https://github.com/vern-h/medium-clone.git
+
 cd medium-clone
 
 	2.	Install frontend dependencies
 
 cd frontend
+
 npm install
+
 npm run dev
 
 	3.	Install backend dependencies
 
 cd ../medium-clone-api
+
 npm install
+
 node index.js
 
 Make sure the backend is running on http://localhost:3000.
