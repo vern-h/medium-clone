@@ -5,11 +5,17 @@ A minimalist blogging platform inspired by Medium, built with modern web technol
 Overview
 
 This project replicates the core features of a publishing platform like Medium, allowing users to:
+
 	•	Register and log in via JWT authentication
+ 
 	•	Write and publish blog posts with image uploads
+ 
 	•	Browse articles on the homepage
+ 
 	•	View individual post details
+ 
 	•	Navigate through a responsive UI with recommended posts and tags
+ 
 
 The application is fully functional in a local development environment.
 
@@ -18,11 +24,17 @@ The application is fully functional in a local development environment.
 Motivation
 
 This project was initiated as a full-stack practice exercise to solidify understanding of:
+
 	•	React component design and routing with react-router-dom
+ 
 	•	Modern UI architecture using Tailwind CSS and shadcn/ui
+ 
 	•	Client-server communication via RESTful APIs
+ 
 	•	Basic JWT-based authentication flow
+ 
 	•	Form handling, input validation, and image processing on the frontend
+ 
 	•	Scalable backend API design using Express.js
 
 The goal was to create a complete and cleanly organized blog platform while practicing frontend-backend integration.
@@ -33,25 +45,38 @@ Tech Stack
 
 Frontend
 	•	React – Component-based UI architecture
+ 
 	•	TypeScript – Type-safe JavaScript for maintainability
+ 
 	•	Tailwind CSS – Utility-first CSS framework for responsive design
+ 
 	•	shadcn/ui – Pre-styled, accessible components for clean UIs
+ 
 	•	React Router – Client-side routing
+ 
 	•	axios – HTTP client for API calls
+ 
 	•	jwt-decode – Decodes JWT tokens on the client
+
 
 Backend
 	•	Node.js + Express.js – REST API server
+ 
 	•	JWT – Authentication mechanism
+ 
 	•	body-parser – Parses incoming request bodies
+ 
 	•	In-Memory Data (for now) – Temporarily stores users and posts during development
 
 ⸻
 
 Features
 	•	Responsive layout with sidebar
+ 
 	•	Image upload with preview
+ 
 	•	Token-based login/logout with localStorage
+ 
 	•	Error handling and fallback behavior for missing posts
 
 ⸻
@@ -95,9 +120,13 @@ This process demonstrates how AI assistance goes beyond code generation and acts
 
 Future Enhancements
 	•	Migrate in-memory storage to MongoDB using Mongoose
+ 
 	•	Add support for post editing and deleting
+ 
 	•	Add user profile pages and post filtering
+ 
 	•	Implement like/comment systems
+ 
 	•	Deploy to production (e.g., Vercel + Render)
 
 ⸻
